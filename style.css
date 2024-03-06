@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10%;
+}
+.nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
