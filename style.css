@@ -131,6 +131,108 @@ a:hover{
   transform: none;
 }
 
+/* profile */ 
+.intro{
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+}
+section{
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing:border-box;
+  min-height: fit-content;
+}
+/* .pic{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}  */ 
+.pic{
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+.intro-text{
+  align-self: center;
+  text-align: center;
+}
+.intro-text p{
+  font-weight: 400;
+  font-size: 1rem;
+
+}
+.intro-text .text1{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.intro-text .text2{
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+} 
+.title{
+  font-size: 3rem;
+  text-align: center;
+} 
+
+/* button */
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+} 
+.btn{
+  font-weight: 600;
+  padding: 1.5rem;
+  border: 1.5px solid rgb(63, 61, 61);
+  border-radius: 2rem;
+  transition: all 300ms ease;
+  width: 8rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+.btn-color-1 , .btn-color-2{
+  border: rgb(42, 41, 41);
+  padding: 8rem;
+} 
+.btn-color-1:hover , .btn-color-2:hover{
+  border: rgb(51, 50, 50);
+  cursor: pointer;
+}
+.btn-color-1:hover , .btn-color-2:hover{
+  background: black;
+  color: white;
+} 
+.btn-color-1:hover{
+  background:rgb(24, 24, 24);
+}
+.btn-color-2{
+  background: none;
+}
+.btn-color-2:hover{
+  border: rgb(48, 47, 47) 0.1rem solid;
+}
+.btn-container button{
+  border-radius: 3rem; 
+  padding: 2px;
+} 
+/* about */ 
+
+.section-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.section-text{
+  display: flex;
+  align-items: center;
+}
+
+
 
 
 

@@ -20,7 +20,6 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About Me</a></li>
           <li><a href="#works">Works</a></li>
-          <li><a href="#resume">Resume</a></li>
           <li><a href="#contact">Say Hi!👋</a></li>
         </ul>
       </div>
@@ -40,37 +39,64 @@
             <li><a href="#home" onclick="toggleMenu()">Home</a></li>
             <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
             <li><a href="#works" onclick="toggleMenu()">Works</a></li>
-            <li><a href="#resume" onclick="toggleMenu()">Resume</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Say Hi!👋</a></li>        
         </div>
       </div>
       </nav>
       
+<section>
+  <div class="intro">
+    <div class="pic">
+      <img src="./assets/profile.jpg" alt="profile" height="300px" width="300px"
+        style="border-radius: 100%;border: 1px solid grey;">
+    </div>
+    <div class="intro-text">
+      <p class="text1">Hello I'm</p>
+      <h3 class="title">Revanth Mali</h3>
+      <p class="text2">Web Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-1" onclick="window.open('./assets/profile.pdf')">Download CV</button>
+        <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact</button>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- About -->
 
-    <div class="intro">
-       
-
+<section id="about">
+  <p class="about-text1" align="center">Get To Know More</p>
+  <h2 class="title">About Me</h2>
+  <div class="section-container">
+    <div class="section-image">
+      <img src="./assets/profile.jpg" alt="img" height="300px" width="300px">
+    </div>
+    <div class="section-text">
+      <p class="section-text text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, officia. Hic, omnis. Accusamus voluptatem incidunt perferendis ullam repudiandae. Mollitia voluptatum porro assumenda eius deserunt ipsam similique doloremque vel praesentium itaque.</p>
     </div>
 
-   
-      <footer id="contact">
-        <div class="footer-container">
-          <div class="footer-icons">
-          <ul>
-            <a href="https://twitter.com/MaliRevanth" class="twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://github.com/RevanthMali" class="github"><i class="fab fa-github"></i></i></a>
-            <a href="https://www.linkedin.com/in/mali-revanth-reddy-74764022a/" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://www.instagram.com/revanth_mali_" class="instagram"><i class="fab fa-instagram"></i></i></a>
+  </div>
+
+</section>
+<section>
+  <footer id="contact">
+    <div class="footer-container">
+      <div class="footer-icons">
+        <ul>
+          <a href="https://twitter.com/MaliRevanth" class="twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/RevanthMali" class="github"><i class="fab fa-github"></i></i></a>
+          <a href="https://www.linkedin.com/in/mali-revanth-reddy-74764022a/" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/revanth_mali_" class="instagram"><i class="fab fa-instagram"></i></i></a>
           </ul>
-          </div>
         </div>
+      </div>
       <div class="copyright">
         <p style="color: #95AAB6;">
            &copy by Revanth Mali
-        </p>
-      </div>
-    </footer>
-    <script src="script.js"></script>
-</body>
+          </p>
+        </div>
+      </footer>
+    </section>
+      <script src="script.js"></script>
+    </body>
 </html>
